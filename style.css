@@ -1,6 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 /* header section  */
+
 header{
     margin: 20px 80px;
+    margin-bottom: 40px;
 
 }
 .hl-color{
@@ -8,7 +14,7 @@ header{
     font-weight: bold;
 }
 .btn-regular{
-    padding: 22.5px 43px;
+    padding: 15px 30px;
     border: none;
     border-radius: 30px;
     background: linear-gradient(#554ce8, #8c43e0);
@@ -16,6 +22,10 @@ header{
     font-size: 18px;
 }
 #header-section{
+    background: url(images/Frame\ 56.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,8 +49,8 @@ header{
 }
 /* about section  */
 #about{
-    margin-top: 40px;
-    background: url(images/Frame\ 56.jpg);
+    padding: 0px 40px;
+    background: url(images/Frame\ 59.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -81,15 +91,51 @@ header{
     color: #252525;
 }
 .cards{
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .card{
     padding: 20px;
-    box-shadow: 1px 2px 5px #333;
+    box-shadow: 2px 1px 5px #8b8b8b;
     margin: 0 30px;
+    border-radius: 8px;
 }
 .card img{
     width: 100%;
+}
+/* number section  */
+#number{
+    margin: 100px 120px;
+}
+.claculate-section{
+    display: flex;
+    justify-content: space-around;
+}
+.part h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.part p{
+    font-size: 16px;
+    color: gray;
+    font-weight: normal;
+    margin: 0;
+
+}
+/* footer section' */
+#footer{
+    padding: 40px;
+    background: #000;
+}
+.footer-section{
+    text-align: center;
+}
+#footer h1{
+    color: #ccc;
+}
+#footer p{
+    color: #8b8b8b;
 }
