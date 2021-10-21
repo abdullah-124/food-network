@@ -1,0 +1,95 @@
+/* header section  */
+header{
+    margin: 20px 80px;
+
+}
+.hl-color{
+    color: #554ce8;
+    font-weight: bold;
+}
+.btn-regular{
+    padding: 22.5px 43px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(#554ce8, #8c43e0);
+    color: #ffff;
+    font-size: 18px;
+}
+#header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.half-width{
+    width: 50%;
+}
+.right-header img{
+    width: 90%;
+}
+.title-text{
+    padding: 0px 50px;
+}
+.title-text h1{
+    font-size: 60px;
+    color: #4b4a4a;
+}
+.title-text p{
+    color: #707070;
+    font-size: 20px;
+}
+/* about section  */
+#about{
+    margin-top: 40px;
+    background: url(images/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about-section{
+    margin: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text{
+    padding: 0px 50px;
+}
+.about-text h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #707070
+}
+.about-text p{
+    font-size: 18px;
+}
+/* recepi section  */
+#recipi{
+    margin: 30px 90px;
+}
+.recipi-title{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.recipi-title h1{
+    font-size: 38px;
+    color: #676767;
+    font-weight: bold;
+}
+.recipi-title p{
+    font-size: 18px;
+    color: #252525;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    padding: 20px;
+    box-shadow: 1px 2px 5px #333;
+    margin: 0 30px;
+}
+.card img{
+    width: 100%;
+}
