@@ -9,6 +9,7 @@ header{
     margin-bottom: 40px;
 
 }
+
 .hl-color{
     color: #554ce8;
     font-weight: bold;
@@ -17,15 +18,12 @@ header{
     padding: 15px 30px;
     border: none;
     border-radius: 30px;
-    background: linear-gradient(#554ce8, #8c43e0);
+    background: linear-gradient(#595597, #7c13f5);
     color: #ffff;
     font-size: 18px;
 }
+
 #header-section{
-    background: url(images/Frame\ 56.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +48,7 @@ header{
 /* about section  */
 #about{
     padding: 0px 40px;
-    background: url(images/Frame\ 59.jpg);
+    background: url(images/Frame\ 56.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -105,9 +103,16 @@ header{
 .card img{
     width: 100%;
 }
+.card h3{
+    font-weight: bold;
+    font-size: 28px;
+}
 /* number section  */
 #number{
     margin: 100px 120px;
+    box-shadow: 1px 0px 5px #adadad;
+    padding: 30px;
+    border-radius: 12px;
 }
 .claculate-section{
     display: flex;
@@ -116,7 +121,7 @@ header{
 .part h2{
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 0;
+    margin: 0;
 }
 .part p{
     font-size: 16px;
